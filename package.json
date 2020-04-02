@@ -1,7 +1,7 @@
 {
   "name": "import-and-require",
   "version": "1.0.0",
-  "description": "基础语法我们就不赘述了哈，大家都知道的是 `require` 是 CommonJS 的规范，而 `import` 是 `ESModule` 的语法规范，那么他们的区别我们就来说一下。",
+  "description": "The differences between import and require",
   "main": "index.js",
   "directories": {
     "example": "example"
