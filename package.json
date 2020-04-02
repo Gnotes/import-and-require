@@ -1,0 +1,31 @@
+{
+  "name": "import-and-require",
+  "version": "1.0.0",
+  "description": "基础语法我们就不赘述了哈，大家都知道的是 `require` 是 CommonJS 的规范，而 `import` 是 `ESModule` 的语法规范，那么他们的区别我们就来说一下。",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test:require": "node ./example/test.require.js",
+    "test:import": "babel-node ./example/test.import.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gnotes/import-and-require.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gnotes/import-and-require/issues"
+  },
+  "homepage": "https://github.com/Gnotes/import-and-require#readme",
+  "dependencies": {
+    "@babel/node": "^7.8.7"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0"
+  }
+}
