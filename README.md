@@ -1,3 +1,5 @@
+![GitHub stars](https://img.shields.io/github/stars/Gnotes/import-and-require?style=social)
+
 # Import-And-Require
 
 基础语法我们就不赘述了哈，大家都知道的是 `require` 是 CommonJS 的规范，而 `import` 是 `ESModule` 的语法规范，那么他们的区别我们就来说一下。
